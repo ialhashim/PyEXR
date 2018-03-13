@@ -11,7 +11,7 @@ from PyEXR import PyEXRImage
 img = PyEXRImage('2by2.exr')
 
 # Print basic details
-print(exrImage) 
+print(img) 
 
 # Pixel values access
 r = img.getPixel(x,y,0)
