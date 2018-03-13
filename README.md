@@ -1,7 +1,7 @@
 # PyEXR
 Loading OpenEXR (.exr) images using Python. 
 
-It is basically a Python binding for tinyexr. Use CMake to build the module (uses pybind11). Installation script is not there, you can simply copy the resulting python module files.
+It is basically a Python binding for tinyexr. Use CMake to build the module (uses pybind11). Installation script is not there, you can simply copy the resulting python module files. Supports loading functionality, saving can be easily added (pull requests welcome!).
 
 # Usage
 ```python
