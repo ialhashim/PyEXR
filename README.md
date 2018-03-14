@@ -23,7 +23,7 @@ a = img.getPixel(x,y,3)
 m = np.array(img, copy = False)
 # or
 rgb = np.reshape(np.array(rgb_img, copy = False), (rgb_img.height, rgb_img.width, 4)) 
-# a matrix of (width x height x channels)
+# a matrix of (height x width x channels)
     
 # Display
 from PIL import Image
