@@ -20,6 +20,11 @@ PyEXRImage::PyEXRImage(int width, int height) :
     }
 }
 
+PyEXRImage::~PyEXRImage()
+{
+	free(out_rgba);
+}
+
 void PyEXRImage::save(const std::string &filename)
 {
     SaveEXR(out_rgba, width, height, 4, 1, filename.c_str());

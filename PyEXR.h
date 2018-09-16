@@ -7,6 +7,7 @@ struct PyEXRImage
 {
     PyEXRImage(const std::string &filename);
     PyEXRImage(int width, int height);
+	~PyEXRImage();
 
     float getPixel(int x, int y, int channel);
     float get(int i);
